@@ -455,7 +455,10 @@ and (max-device-width : 1024px) {
 }
 }
 
-@font-face{
-  font-family: "Metropolis";
-  src: url(fonts/Metropolis-regular.otf);
+/* responsive img footer */
+
+.responsive {
+  width: 90%;
+  max-width: 980px;
+  height: auto;
 }
